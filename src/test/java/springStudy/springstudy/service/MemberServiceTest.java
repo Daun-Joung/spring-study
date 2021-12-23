@@ -17,6 +17,7 @@ import static org.assertj.core.api.Fail.fail;
 
 class MemberServiceTest {
 
+    int a = 0;
     MemberService memberService;
     MemoryMemberRepository memberRepository;
 
