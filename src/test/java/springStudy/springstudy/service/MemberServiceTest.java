@@ -25,7 +25,6 @@ class MemberServiceTest {
         memberRepository = new MemoryMemberRepository(); // 우선 memberRepository의 객체를 생성
         memberService = new MemberService(memberRepository); // 그것을 memberService에 매개변수로 전달 그러면 위에 생성된 객체가 memberService에 전달되어 같은 객체를 이야기하는 것 처럼 됨.
     }
-
     @AfterEach
     public void afterEach(){
         memberRepository.clearStore();
